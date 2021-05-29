@@ -1,0 +1,26 @@
+#snips {
+    z-index: 100;
+    opacity: 0.2;
+}
+  
+svg {
+  background-image: url("http://localhost:8000/img/bg-ON.gif");
+  width: 1000px;
+  display: block;
+  position: absolute;
+  
+  @keyframes dash {
+    from {
+      stroke-dashoffset: 600;
+    }
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+}
+
+.path {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 0;
+  animation: dash 1s linear;
+}

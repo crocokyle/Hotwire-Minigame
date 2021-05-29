@@ -1,0 +1,32 @@
+#hotwire-minigame {
+    height: 600px;
+    width: 1000px;
+    position: absolute;
+    background: url(img/bg.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+#temp_wires {
+    position: absolute;
+    bottom: 12%;
+    left: 25.6%;
+}
+  
+#wire-strippers {
+position: relative;
+height: 160px;
+width: 142px;
+top: 42%;
+left: 65%;
+z-index: 2;
+}
+
+#wire-nut {
+height: 155px;
+width: 134px;
+position: relative;
+top: 42%;
+left: 66%;
+z-index: 2;
+}
