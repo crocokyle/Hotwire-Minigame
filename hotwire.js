@@ -57,7 +57,7 @@ $(document).ready(function(){
     $("#temp_wires").click(function(){
         if (ToolSelected) {
             $("#hotwire-minigame").css("background-image", "url(img/bg-ON.gif)");
-            var snd = new Audio("sounds/ACC-Power.wav"); // buffers automatically when created
+            var snd = new Audio("sounds/ACC-Power.wav");
             snd.play();
         }
     }); 
